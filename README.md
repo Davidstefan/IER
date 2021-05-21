@@ -5,10 +5,13 @@ Steps were used to gather information about the demographics of people in 2019 a
 of lockdown measures (entitled in 2020) on the physicical activity of students and their BMI.
 
 Dataset == Data_IER.csv: Contains the dataset with the data from the IPAQ and the OMRON activity tracker
+
 Script == data_processing.m: Contains the Matlab file which is used to perform statistical analysis on the dataset
 
 Method: 
+
 The main functions of the script are:
+     
      -Determining the mean value of the BMI for both 2019 and 2020
      -Determining the mean value of the amount of steps taken per day for both 2019 and 2020
      -Filtering out the irrelevant records (i.e. 'NA' records)
@@ -20,12 +23,13 @@ Data specific information:
 "Only used and relevent data is described here, for a full overview of the dataset in general, please contact l.hoogendam@erasmusmc.nl.
 Data set was not made in the project, it was only used for statistical analysis, therefore no in depth information concerning the dataset and 
 its individual entities"
-BMI = Body mass index [NA]
-avg = average [NA]
-std = standard deviation [NA]
-sdi = steps taken by all students on day i [#]
-num = numerical value (done to convert the cell values to numerical values)
-s = average of steps taken [steps]
+
+     -BMI = Body mass index [NA]
+     -avg = average [NA]
+     -std = standard deviation [NA]
+     -sdi = steps taken by all students on day i [#]
+     -num = numerical value (done to convert the cell values to numerical values)
+     -s = average of steps taken [steps]
 For columns name entities in the Data_IER.csv file, please refer to l.hoogendam@erasmusmc.nl
 
 Within the data_processing.m file, annotations have been made to guide the user through the script.
@@ -35,5 +39,7 @@ and the dataset in a folder, open them both in Matlab and run the script. Doing 
 If any functions are unclear, please contact d.a.stefan@student.tudelft.nl
 
 Author: David Stefan
+
 Project: Introduction to Engineering research
+
 Date: 21-5-2021
