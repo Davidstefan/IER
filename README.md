@@ -34,9 +34,13 @@ For columns name entities in the Data_IER.csv file, please refer to l.hoogendam@
 
 Within the data_processing.m file, annotations have been made to guide the user through the script.
 
-Done using Matlab 2019 - student edition, for installation of Matlab 2019, please refer to mathworks.com. To run the script please put the script
+Done using Matlab 2019 - student edition
+
+Installation instructions: for installation of Matlab 2019, please refer to mathworks.com. To run the script please put the script
 and the dataset in a folder, open them both in Matlab and run the script. Doing this will give the results as listed in the associated report.
 If any functions are unclear, please contact d.a.stefan@student.tudelft.nl
+
+To install Matlab, please refer to the following link: https://nl.mathworks.com/help/install/ 
 
 Author: David Stefan
 
